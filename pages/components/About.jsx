@@ -9,7 +9,14 @@ const About = () => {
       <div className="container xl:max-w-[1280px] px-8">
         <div className="lg:flex lg:justify-between lg:items-center lg:gap-6">
           <div className="relative w-[360px] h-[280px] shrink-0 mx-auto lg:order-last">
-            <Image src="/profile.jpg" fill="true" className="object-cover" />
+            <Image
+              src="/profile.jpg"
+              fill="true"
+              sizes="360"
+              className="object-cover"
+              alt="SteinS Profile"
+              priority="false"
+            />
           </div>
 
           <div className="about-text">
