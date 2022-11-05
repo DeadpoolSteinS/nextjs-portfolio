@@ -37,11 +37,17 @@ const About = () => {
             </p>
 
             <div className="mt-2 [&>a]:inline-block [&>a]:font-bold [&>a]:rounded-full [&>a]:px-7 [&>a]:py-3 [&>a]:text-sm [&>a]:transition-colors">
-              <a href="#" className="bg-gray-200 text-gray-600 mr-2">
+              <a
+                href="#"
+                className="bg-gray-200 text-gray-600 hover:text-[#ffc200] mr-2"
+              >
                 <i className="uil uil-file-alt"></i> Download Resume
               </a>
 
-              <a href="#contact" className="bg-gray-600 text-white">
+              <a
+                href="#contact"
+                className="bg-gray-600 text-white hover:bg-[#ffc200]"
+              >
                 Get a free quote
               </a>
             </div>
