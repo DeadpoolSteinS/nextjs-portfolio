@@ -2,11 +2,8 @@ import Image from "next/image";
 
 const About = () => {
   return (
-    <section
-      className="about py-32 flex justify-center items-center"
-      id="about"
-    >
-      <div className="container xl:max-w-[1280px] px-8">
+    <section className="py-32" id="about">
+      <div className="container mx-auto xl:max-w-[1280px] px-8">
         <div className="lg:flex lg:justify-between lg:items-center lg:gap-6">
           <div className="relative w-[360px] h-[280px] shrink-0 mx-auto lg:order-last">
             <Image
@@ -33,7 +30,7 @@ const About = () => {
               </div>
             </h1>
 
-            <p className="text-lg font-light text-[#5b5b5b]">
+            <p>
               Building a successful product is a challenge. I am highly
               energetic in user experience design, interfaces and web
               development.

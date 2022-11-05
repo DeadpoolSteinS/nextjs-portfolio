@@ -46,13 +46,6 @@ a:hover {
   font-size: 40px;
 }
 
-p {
-  font-size: 18px;
-  font-weight: 300;
-  line-height: 1.5;
-  color: #5b5b5b;
-}
-
 h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
   letter-spacing: -1px;
@@ -330,14 +323,14 @@ b, strong {
   max-width: 432px;
   margin-left: 6em;
 }
-.timeline-info small {
+/* .timeline-info small {
   color: #474559;
   font-size: 16px;
   font-weight: bold;
   display: inline-block;
   vertical-align: middle;
   margin-left: 15px;
-}
+} */
 
 .owl-carousel .owl-nav span {
   display: none;
