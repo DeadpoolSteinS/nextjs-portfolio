@@ -20,7 +20,7 @@ const Portfolio = () => {
           </li>
         </ul>
         <div className="grid grid-cols-3 gap-6">
-          <a href="#" class="relative">
+          <a href="#" className="relative">
             <Image
               className="rounded"
               src="/img/portfolio-1.jpg"
@@ -28,14 +28,14 @@ const Portfolio = () => {
               width="400"
               height="300"
             />
-            <div class="absolute w-full rounded top-0 bottom-0 p-4 bg-portfolio-gradient bg-size-300 bg-position-100 hover:bg-position-0 text-white hover:text-black flex items-end transition-all duration-500">
+            <div className="absolute w-full rounded top-0 bottom-0 p-4 bg-portfolio-gradient bg-size-300 bg-position-100 hover:bg-position-0 text-white hover:text-black flex items-end transition-all duration-500">
               <div>
                 <p className="font-bold">Fashion App</p>
                 <p>Lorem ipsum dolor sit amet consectetur.</p>
               </div>
             </div>
           </a>
-          <a href="#" class="relative">
+          <a href="#" className="relative">
             <Image
               className="rounded"
               src="/img/portfolio-2.jpg"
@@ -43,14 +43,14 @@ const Portfolio = () => {
               width="400"
               height="300"
             />
-            <div class="absolute w-full rounded top-0 bottom-0 p-4 bg-portfolio-gradient bg-size-300 bg-position-100 hover:bg-position-0 text-white hover:text-black flex items-end transition-all duration-500">
+            <div className="absolute w-full rounded top-0 bottom-0 p-4 bg-portfolio-gradient bg-size-300 bg-position-100 hover:bg-position-0 text-white hover:text-black flex items-end transition-all duration-500">
               <div>
                 <p className="font-bold">Fashion App</p>
                 <p>Lorem ipsum dolor sit amet consectetur.</p>
               </div>
             </div>
           </a>
-          <a href="#" class="relative">
+          <a href="#" className="relative">
             <Image
               className="rounded"
               src="/img/portfolio-3.jpg"
@@ -58,14 +58,14 @@ const Portfolio = () => {
               width="400"
               height="300"
             />
-            <div class="absolute w-full rounded top-0 bottom-0 p-4 bg-portfolio-gradient bg-size-300 bg-position-100 hover:bg-position-0 text-white hover:text-black flex items-end transition-all duration-500">
+            <div className="absolute w-full rounded top-0 bottom-0 p-4 bg-portfolio-gradient bg-size-300 bg-position-100 hover:bg-position-0 text-white hover:text-black flex items-end transition-all duration-500">
               <div>
                 <p className="font-bold">Fashion App</p>
                 <p>Lorem ipsum dolor sit amet consectetur.</p>
               </div>
             </div>
           </a>
-          <a href="#" class="relative">
+          <a href="#" className="relative">
             <Image
               className="rounded"
               src="/img/portfolio-4.jpg"
@@ -73,7 +73,7 @@ const Portfolio = () => {
               width="400"
               height="300"
             />
-            <div class="absolute w-full rounded top-0 bottom-0 p-4 bg-portfolio-gradient bg-size-300 bg-position-100 hover:bg-position-0 text-white hover:text-black flex items-end transition-all duration-500">
+            <div className="absolute w-full rounded top-0 bottom-0 p-4 bg-portfolio-gradient bg-size-300 bg-position-100 hover:bg-position-0 text-white hover:text-black flex items-end transition-all duration-500">
               <div>
                 <p className="font-bold">Fashion App</p>
                 <p>Lorem ipsum dolor sit amet consectetur.</p>
