@@ -5,12 +5,12 @@ const About = () => {
     <section className="py-32" id="about">
       <div className="container mx-auto xl:max-w-[1280px] px-8">
         <div className="lg:flex lg:justify-between lg:items-center lg:gap-6">
-          <div className="relative w-[360px] h-[280px] shrink-0 mx-auto lg:order-last">
+          <div className="relative w-[400px] h-[300px] shrink-0 mx-auto lg:order-last">
             <Image
               src="/profile.jpg"
               fill="true"
               sizes="360"
-              className="object-cover"
+              className="object-cover rounded"
               alt="SteinS Profile"
               priority="false"
             />

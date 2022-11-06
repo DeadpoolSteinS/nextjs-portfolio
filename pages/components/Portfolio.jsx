@@ -2,108 +2,87 @@ import Image from "next/image";
 
 const Portfolio = () => {
   return (
-    <div className="container-fluid pt-5 pb-3" id="portfolio">
-      <div className="container">
-        <div className="position-relative d-flex align-items-center justify-content-center">
-          <h1 className="display-1 text-uppercase text-white">Gallery</h1>
-          <h1 className="position-absolute text-uppercase text-primary">
-            My Portfolio
-          </h1>
-        </div>
+    <section id="portfolio" className="py-32">
+      <div className="container mx-auto xl:max-w-[1280px] px-8">
+        <h1 className="text-center text-[#353535] tracking-tight font-bold text-4xl mb-8">
+          My Portfolio
+        </h1>
         <ul className="flex justify-center gap-2 mb-4 [&>li]:cursor-pointer [&>li]:inline-block [&>li]:font-bold [&>li]:rounded-full [&>li]:px-7 [&>li]:py-3 [&>li]:text-sm [&>li]:transition-colors">
-          <li
-            className="bg-gray-600 text-white hover:bg-[#ffc200]"
-            data-filter="*"
-          >
-            All
-          </li>
-          <li
-            className="bg-gray-200 text-gray-600 hover:text-[#ffc200]"
-            data-filter=".first"
-          >
+          <li className="bg-gray-600 text-white">All</li>
+          <li className="bg-gray-200 text-gray-600 hover:text-[#ffc200]">
             Design
           </li>
-          <li
-            className="bg-gray-200 text-gray-600 hover:text-[#ffc200]"
-            data-filter=".second"
-          >
+          <li className="bg-gray-200 text-gray-600 hover:text-[#ffc200]">
             Development
           </li>
-          <li
-            className="bg-gray-200 text-gray-600 hover:text-[#ffc200]"
-            data-filter=".third"
-          >
+          <li className="bg-gray-200 text-gray-600 hover:text-[#ffc200]">
             Marketing
           </li>
         </ul>
-        <div className="row portfolio-container">
-          <div className="col-lg-4 col-md-6 mb-4 portfolio-item first">
-            <div className="position-relative overflow-hidden mb-2">
-              <Image
-                className="img-fluid rounded w-100"
-                src="/img/portfolio-1.jpg"
-                alt=""
-                width="400"
-                height="300"
-              />
-              <div className="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
-                <a href="img/portfolio-1.jpg" data-lightbox="portfolio">
-                  <i className="fa fa-plus text-white"></i>
-                </a>
+        <div className="grid grid-cols-3 gap-6">
+          <a href="#" class="relative">
+            <Image
+              className="rounded"
+              src="/img/portfolio-1.jpg"
+              alt=""
+              width="400"
+              height="300"
+            />
+            <div class="absolute w-full rounded top-0 bottom-0 p-4 bg-portfolio-gradient bg-size-300 bg-position-100 hover:bg-position-0 text-white hover:text-black flex items-end transition-all duration-500">
+              <div>
+                <p className="font-bold">Fashion App</p>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
               </div>
             </div>
-          </div>
-          <div className="col-lg-4 col-md-6 mb-4 portfolio-item first">
-            <div className="position-relative overflow-hidden mb-2">
-              <Image
-                className="img-fluid rounded w-100"
-                src="/img/portfolio-2.jpg"
-                alt=""
-                width="400"
-                height="300"
-              />
-              <div className="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
-                <a href="img/portfolio-1.jpg" data-lightbox="portfolio">
-                  <i className="fa fa-plus text-white"></i>
-                </a>
+          </a>
+          <a href="#" class="relative">
+            <Image
+              className="rounded"
+              src="/img/portfolio-2.jpg"
+              alt=""
+              width="400"
+              height="300"
+            />
+            <div class="absolute w-full rounded top-0 bottom-0 p-4 bg-portfolio-gradient bg-size-300 bg-position-100 hover:bg-position-0 text-white hover:text-black flex items-end transition-all duration-500">
+              <div>
+                <p className="font-bold">Fashion App</p>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
               </div>
             </div>
-          </div>
-          <div className="col-lg-4 col-md-6 mb-4 portfolio-item first">
-            <div className="position-relative overflow-hidden mb-2">
-              <Image
-                className="img-fluid rounded w-100"
-                src="/img/portfolio-3.jpg"
-                alt=""
-                width="400"
-                height="300"
-              />
-              <div className="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
-                <a href="img/portfolio-1.jpg" data-lightbox="portfolio">
-                  <i className="fa fa-plus text-white"></i>
-                </a>
+          </a>
+          <a href="#" class="relative">
+            <Image
+              className="rounded"
+              src="/img/portfolio-3.jpg"
+              alt=""
+              width="400"
+              height="300"
+            />
+            <div class="absolute w-full rounded top-0 bottom-0 p-4 bg-portfolio-gradient bg-size-300 bg-position-100 hover:bg-position-0 text-white hover:text-black flex items-end transition-all duration-500">
+              <div>
+                <p className="font-bold">Fashion App</p>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
               </div>
             </div>
-          </div>
-          <div className="col-lg-4 col-md-6 mb-4 portfolio-item first">
-            <div className="position-relative overflow-hidden mb-2">
-              <Image
-                className="img-fluid rounded w-100"
-                src="/img/portfolio-4.jpg"
-                alt=""
-                width="400"
-                height="300"
-              />
-              <div className="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
-                <a href="img/portfolio-1.jpg" data-lightbox="portfolio">
-                  <i className="fa fa-plus text-white"></i>
-                </a>
+          </a>
+          <a href="#" class="relative">
+            <Image
+              className="rounded"
+              src="/img/portfolio-4.jpg"
+              alt=""
+              width="400"
+              height="300"
+            />
+            <div class="absolute w-full rounded top-0 bottom-0 p-4 bg-portfolio-gradient bg-size-300 bg-position-100 hover:bg-position-0 text-white hover:text-black flex items-end transition-all duration-500">
+              <div>
+                <p className="font-bold">Fashion App</p>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
               </div>
             </div>
-          </div>
+          </a>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

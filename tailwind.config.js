@@ -17,9 +17,20 @@ module.exports = {
           "10%, 25%": { opacity: "1", transform: "translateY(0px)" },
         },
       },
+      backgroundImage: {
+        "portfolio-gradient":
+          "linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 33.33%, rgba(255,255,255,0.8) 66.66%, rgba(255,255,255,0) 99.99%)",
+      },
     },
     fontFamily: {
       mavens: ["Maven Pro", "sans-serif"],
+    },
+    backgroundSize: {
+      "size-300": "300% 300%",
+    },
+    backgroundPosition: {
+      "position-100": "0% 100%",
+      "position-0": "0% 0%",
     },
   },
   plugins: [],
