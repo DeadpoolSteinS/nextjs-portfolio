@@ -22,7 +22,7 @@ const About = () => {
             </small>
 
             <h1 className="relative text-[#212121] text-[2.8em] my-6 font-bold tracking-tight">
-              <span>Hey there, I'm </span>
+              <span>Hey there, I&apos;m </span>
               <div className="inline-block relative min-w-[240px] align-top mt-[6px] [&>span]:text-[#ffc200] [&>span]:text-[38px] [&>span]:absolute [&>span]:animate-bottom-to-top [&>span]:opacity-0">
                 <span>Novaldi Ago</span>
                 <span style={{ animationDelay: "2s" }}>Mobile Dev</span>
