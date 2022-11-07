@@ -1,5 +1,6 @@
 import Image from "next/image";
 import NavbarLink from "./NavbarLink";
+import { BsFillMoonStarsFill } from "react-icons/bs";
 
 const Navbar = () => {
   return (
@@ -19,7 +20,7 @@ const Navbar = () => {
 
           <div className="flex items-center">
             <div className="flex items-center cursor-pointer">
-              <i className="relative after:content-['\ea9f'] after:font-['unicons'] after:not-italic after:text-3xl after:font-light"></i>
+              <BsFillMoonStarsFill />
               <div className="font-bold ml-2">Color mode</div>
             </div>
           </div>

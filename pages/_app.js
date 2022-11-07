@@ -1,6 +1,5 @@
 import "../styles/globals.css";
 import "../styles/unicons.css";
-// import "../styles/bootstrap.css";
 
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />;

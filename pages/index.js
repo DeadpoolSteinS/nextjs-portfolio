@@ -1,6 +1,8 @@
 import Head from "next/head";
 import { useEffect } from "react";
 import About from "./page/About";
+import Contact from "./page/Contact";
+import Footer from "./page/Footer";
 import History from "./page/history/History";
 import Navbar from "./page/navbar/Navbar";
 import Project from "./page/project/Project";
@@ -23,6 +25,8 @@ export default function Home() {
       <About />
       <History />
       <Project />
+      <Contact />
+      <Footer />
     </div>
   );
 }
