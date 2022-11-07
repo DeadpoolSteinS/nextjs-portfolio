@@ -33,5 +33,5 @@ module.exports = {
       "position-0": "0% 0%",
     },
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/line-clamp")],
 };

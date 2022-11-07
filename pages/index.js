@@ -1,9 +1,9 @@
 import Head from "next/head";
 import { useEffect } from "react";
-import About from "./components/About";
-import History from "./components/History";
-import Navbar from "./components/Navbar";
-import Portfolio from "./components/Portfolio";
+import About from "./page/About";
+import History from "./page/history/History";
+import Navbar from "./page/navbar/Navbar";
+import Project from "./page/project/Project";
 
 export default function Home() {
   useEffect(() => {
@@ -22,7 +22,7 @@ export default function Home() {
       <Navbar />
       <About />
       <History />
-      <Portfolio />
+      <Project />
     </div>
   );
 }
