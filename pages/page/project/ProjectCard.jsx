@@ -5,7 +5,7 @@ const ProjectCard = (props) => {
     <a href="#" className="relative">
       <Image
         className="rounded"
-        src="https://raw.githubusercontent.com/DeadpoolSteinS/sejuta-cita-frontend/master/img/pc-version.jpg"
+        src={props.data.image}
         alt=""
         width="400"
         height="300"
