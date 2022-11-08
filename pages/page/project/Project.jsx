@@ -1,6 +1,22 @@
 import ProjectCard from "./ProjectCard";
+import axios from "axios";
+import { useEffect, useState } from "react";
 
 const Project = () => {
+  const [projects, setProjects] = useState([]);
+
+  useEffect(() => {
+    axios
+      .get("https://steins-portfolio.herokuapp.com/api/projects/")
+      .then((res) => {
+        setProjects(res.data);
+        console.log(projects);
+      })
+      .catch((err) => {
+        console.log(err);
+      });
+  }, []);
+
   return (
     <section id="portfolio" className="py-32">
       <div className="container mx-auto xl:max-w-[1280px] px-8">
@@ -20,10 +36,9 @@ const Project = () => {
           </li>
         </ul>
         <div className="grid grid-cols-3 gap-6">
-          <ProjectCard image="portfolio-1.jpg" />
-          <ProjectCard image="portfolio-2.jpg" />
-          <ProjectCard image="portfolio-3.jpg" />
-          <ProjectCard image="portfolio-4.jpg" />
+          {projects.map((project) => (
+            <ProjectCard key={project._id} data={project} />
+          ))}
         </div>
       </div>
     </section>
