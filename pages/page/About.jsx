@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const About = () => {
   return (
@@ -37,12 +38,13 @@ const About = () => {
             </p>
 
             <div className="mt-2 [&>a]:inline-block [&>a]:font-bold [&>a]:rounded-full [&>a]:px-7 [&>a]:py-3 [&>a]:text-sm [&>a]:transition-colors">
-              <a
+              <Link
                 href="https://drive.google.com/file/d/1OxrLa8GsSf3spsago3H07r0-pvWN3LsI/view?usp=sharing"
+                target="_blank"
                 className="bg-gray-200 text-gray-600 hover:text-[#ffc200] mr-2"
               >
                 <i className="uil uil-file-alt"></i> Download Resume
-              </a>
+              </Link>
 
               <a
                 href="#contact"
