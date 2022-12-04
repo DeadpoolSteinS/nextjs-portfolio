@@ -38,7 +38,7 @@ const About = () => {
 
             <div className="mt-2 [&>a]:inline-block [&>a]:font-bold [&>a]:rounded-full [&>a]:px-7 [&>a]:py-3 [&>a]:text-sm [&>a]:transition-colors">
               <a
-                href="#"
+                href="https://drive.google.com/file/d/1OxrLa8GsSf3spsago3H07r0-pvWN3LsI/view?usp=sharing"
                 className="bg-gray-200 text-gray-600 hover:text-[#ffc200] mr-2"
               >
                 <i className="uil uil-file-alt"></i> Download Resume
