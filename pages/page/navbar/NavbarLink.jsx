@@ -2,7 +2,7 @@ const NavbarLink = (props) => {
   return (
     <li>
       <a
-        href="#"
+        href={`#${props.name.toLowerCase()}`}
         className="font-bold opacity-50 block px-5 overflow-hidden [&:hover>span]:-translate-y-full [&:hover>span]:text-[#ffc200]"
       >
         <span

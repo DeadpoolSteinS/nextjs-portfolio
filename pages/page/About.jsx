@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const About = () => {
   return (
-    <section className="py-32" id="about">
+    <section className="pt-56 pb-24" id="about">
       <div className="container mx-auto xl:max-w-[1280px] px-8">
         <div className="lg:flex lg:justify-between lg:items-center lg:gap-6">
           <div className="relative w-[400px] h-[300px] shrink-0 mx-auto lg:order-last">
@@ -18,26 +18,26 @@ const About = () => {
           </div>
 
           <div className="about-text">
-            <small className="text-[#5b5b5b] font-bold tracking-tight text-sm">
+            <p className="text-[#5b5b5b] font-bold tracking-tight text-xl">
               Welcome to my portfolio website!
-            </small>
+            </p>
 
-            <h1 className="relative text-[#212121] text-[2.8em] my-6 font-bold tracking-tight">
+            <h1 className="relative text-[#212121] text-[2.8em] mt-6 mb-4 font-bold tracking-tight">
               <span>Hey there, I&apos;m </span>
-              <div className="inline-block relative min-w-[240px] align-top mt-[6px] [&>span]:text-[#ffc200] [&>span]:text-[38px] [&>span]:absolute [&>span]:animate-bottom-to-top [&>span]:opacity-0">
+              <div
+                className="inline-block relative min-w-[280px] align-top mt-[6px] [&>span]:text-[#ffc200] [&>span]:text-[38px] [&>span]:absolute [&>span]:animate-bottom-to-top [&>span]:opacity-0">
                 <span>Novaldi Ago</span>
-                <span style={{ animationDelay: "2s" }}>Mobile Dev</span>
-                <span style={{ animationDelay: "4s" }}>Backend Dev</span>
+                <span style={{animationDelay: "2s"}}>Tech Enthusiast</span>
+                <span style={{animationDelay: "4s"}}>Fullstack Dev</span>
               </div>
             </h1>
 
-            <p>
-              Building a successful product is a challenge. I am highly
-              energetic in user experience design, interfaces and web
-              development.
-            </p>
+            <div className="mb-4">
+              Passionate about creating efficient code, competitive programming, and currently exploring AI and the metaverse.
+            </div>
 
-            <div className="mt-2 [&>a]:inline-block [&>a]:font-bold [&>a]:rounded-full [&>a]:px-7 [&>a]:py-3 [&>a]:text-sm [&>a]:transition-colors">
+            <div
+              className="mt-2 [&>a]:inline-block [&>a]:font-bold [&>a]:rounded-xl [&>a]:px-7 [&>a]:py-3 [&>a]:text-sm [&>a]:transition-colors">
               <Link
                 href="https://drive.google.com/file/d/1OxrLa8GsSf3spsago3H07r0-pvWN3LsI/view?usp=sharing"
                 target="_blank"
@@ -45,13 +45,6 @@ const About = () => {
               >
                 <i className="uil uil-file-alt"></i> Download Resume
               </Link>
-
-              <a
-                href="#contact"
-                className="bg-gray-600 text-white hover:bg-[#ffc200]"
-              >
-                Get a free quote
-              </a>
             </div>
           </div>
         </div>
