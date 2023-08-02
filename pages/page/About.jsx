@@ -39,7 +39,7 @@ const About = () => {
             <div
               className="mt-2 [&>a]:inline-block [&>a]:font-bold [&>a]:rounded-xl [&>a]:px-7 [&>a]:py-3 [&>a]:text-sm [&>a]:transition-colors">
               <Link
-                href="https://drive.google.com/file/d/1OxrLa8GsSf3spsago3H07r0-pvWN3LsI/view?usp=sharing"
+                href="https://drive.google.com/file/d/1pf3pC_Ugf3FKMt4g0j4CsKUms7obd8TD/view?usp=sharing"
                 target="_blank"
                 className="bg-gray-200 text-gray-600 hover:text-[#ffc200] mr-2"
               >
